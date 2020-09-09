@@ -1,4 +1,9 @@
 #!/bin/bash
+sudo apt install curl
+sudo apt install nano
+sudo apt-get upgrade
+sudo apt-get update
+
 sudo apt-get install \
     apt-transport-https \
     ca-certificates \
