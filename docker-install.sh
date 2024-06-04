@@ -32,9 +32,9 @@ sudo groupadd docker
 sudo usermod -aG docker $(whoami)
 
 # add older version of docker-compose
-sudo curl -L https://github.com/docker/compose/releases/download/v2.14.2/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
-sudo chmod +x /usr/local/bin/docker-compose
-docker-compose --version
+# sudo curl -L https://github.com/docker/compose/releases/download/v2.14.2/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+# sudo chmod +x /usr/local/bin/docker-compose
+# docker-compose --version
 
 # add new version of docker compose
 DOCKER_CONFIG=${DOCKER_CONFIG:-$HOME/.docker}
